@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteRule ^csvParser/$ csvParser.php
+RewriteRule ^planets/$ planets.php
+RewriteRule ^itemlist/$ itemlist.php
+RewriteRule ^item/(.*)$ item.php?item=$1
+RewriteRule ^beacon/(.*)$ beacon.php?beacon=$1 [B]
+RewriteRule ^updateTimes/(.*)$ updateTimes.php?item=$1
